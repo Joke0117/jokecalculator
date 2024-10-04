@@ -23,7 +23,7 @@ body {
 .apple-icon {
     display: flex;
     margin-left: 320px; 
-    margin-top: -8px; 
+    margin-top: -7px; 
     margin-bottom: 20px;
 }
 
@@ -141,10 +141,9 @@ button:active {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .calculator {
         padding: 15px;
-        width: 100%;
         max-width: 300px;
     }
 
@@ -165,15 +164,15 @@ button:active {
     }
 
     .equals {
-        grid-row: span 2; /* Ocupará dos filas también en pantallas pequeñas */
+        grid-row: span 2; 
     }
 
     .apple-icon img {
-        width: 25px; /* Ajustamos el tamaño del ícono para pantallas pequeñas */
+        width: 25px; 
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .calculator {
         padding: 10px;
         max-width: 250px;
@@ -191,11 +190,10 @@ button:active {
     }
 
     .equals {
-        grid-row: span 2; /* Ocupará dos filas en las pantallas más pequeñas */
+        grid-row: span 2; 
     }
 
     .apple-icon img {
-        width: 20px; /* Más ajuste del tamaño del ícono en pantallas aún más pequeñas */
+        width: 20px; 
     }
 }
-
