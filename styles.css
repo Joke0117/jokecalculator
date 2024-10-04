@@ -22,8 +22,7 @@ body {
 
 .apple-icon {
     display: flex;
-    margin-left: 320px; 
-    margin-top: -7px; 
+    margin-top: -5px; 
     margin-bottom: 20px;
 }
 
@@ -142,6 +141,9 @@ button:active {
 
 
 @media (max-width: 768px) {
+    body {
+        padding: 15px; 
+    }
     .calculator {
         padding: 15px;
         max-width: 300px;
@@ -173,6 +175,10 @@ button:active {
 }
 
 @media (max-width: 480px) {
+    body {
+        padding: 15px; 
+    }
+
     .calculator {
         padding: 10px;
         max-width: 250px;
