@@ -22,6 +22,7 @@ body {
 
 .apple-icon {
     display: flex;
+    justify-content: flex-end; /* Alinea el icono a la derecha */
     margin-top: -5px; 
     margin-bottom: 20px;
 }
@@ -139,7 +140,6 @@ button:active {
     text-shadow: 0px 2px 4px rgba(255, 165, 0, 0.5);
 }
 
-
 @media (max-width: 768px) {
     body {
         padding: 15px; 
@@ -170,7 +170,8 @@ button:active {
     }
 
     .apple-icon img {
-        width: 25px; 
+        width: 25px;
+        margin-right: 10px 
     }
 }
 
